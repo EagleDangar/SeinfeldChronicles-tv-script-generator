@@ -13403,7 +13403,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13430,7 +13430,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13481,7 +13481,7 @@ sequence_length = 4</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">torch.utils.data</span> <span class="kn">import</span> <span class="n">TensorDataset</span><span class="p">,</span> <span class="n">DataLoader</span>
@@ -13554,7 +13554,7 @@ tensor([ 33,  26,  22,  39,  16,  28,  11,  43,  30,  12])</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13637,7 +13637,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="nn">nn</span>
@@ -13757,7 +13757,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">forward_back_prop</span><span class="p">(</span><span class="n">rnn</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">criterion</span><span class="p">,</span> <span class="n">inp</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">hidden</span><span class="p">):</span>
@@ -13841,7 +13841,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13909,14 +13909,14 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Data params</span>
 <span class="c1"># Sequence Length</span>
-<span class="n">sequence_length</span> <span class="o">=</span> <span class="mi">10</span>  <span class="c1"># of words in a sequence</span>
+<span class="n">sequence_length</span> <span class="o">=</span> <span class="mi">12</span>  <span class="c1"># of words in a sequence</span>
 <span class="c1"># Batch Size</span>
-<span class="n">batch_size</span> <span class="o">=</span> <span class="mi">64</span>
+<span class="n">batch_size</span> <span class="o">=</span> <span class="mi">128</span>
 
 <span class="c1"># data loader - do not change</span>
 <span class="n">train_loader</span> <span class="o">=</span> <span class="n">batch_data</span><span class="p">(</span><span class="n">int_text</span><span class="p">,</span> <span class="n">sequence_length</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">)</span>
@@ -13929,7 +13929,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Training parameters</span>
@@ -13944,14 +13944,14 @@ out = output[:, -1]</code></pre>
 <span class="c1"># Output size</span>
 <span class="n">output_size</span> <span class="o">=</span> <span class="n">vocab_size</span>
 <span class="c1"># Embedding Dimension</span>
-<span class="n">embedding_dim</span> <span class="o">=</span> <span class="mi">350</span>
+<span class="n">embedding_dim</span> <span class="o">=</span> <span class="mi">400</span>
 <span class="c1"># Hidden Dimension</span>
-<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">300</span>
+<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">600</span>
 <span class="c1"># Number of RNN Layers</span>
 <span class="n">n_layers</span> <span class="o">=</span> <span class="mi">2</span>
 
 <span class="c1"># Show stats for every n number of batches</span>
-<span class="n">show_every_n_batches</span> <span class="o">=</span> <span class="mi">500</span>
+<span class="n">show_every_n_batches</span> <span class="o">=</span> <span class="mi">1000</span>
 </pre></div>
 
     </div>
@@ -13972,7 +13972,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14011,569 +14011,127 @@ out = output[:, -1]</code></pre>
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Training for 10 epoch(s)...
-Epoch:    1/10    Loss: 5.523391386985779
+Epoch:    1/10    Loss: 4.995453948020935
 
-Epoch:    1/10    Loss: 4.936316779613495
+Epoch:    1/10    Loss: 4.400498757600785
 
-Epoch:    1/10    Loss: 4.799603982448578
+Epoch:    1/10    Loss: 4.377089645624161
 
-Epoch:    1/10    Loss: 4.6108385276794435
+Epoch:    1/10    Loss: 4.242197264432907
 
-Epoch:    1/10    Loss: 4.535457802772522
+Epoch:    1/10    Loss: 4.1448262257575985
 
-Epoch:    1/10    Loss: 4.389592906951904
+Epoch:    1/10    Loss: 4.251148685455322
 
-Epoch:    1/10    Loss: 4.338591414451599
+Epoch:    2/10    Loss: 4.055576753567874
 
-Epoch:    1/10    Loss: 4.389820907115936
+Epoch:    2/10    Loss: 3.7315974895954134
 
-Epoch:    1/10    Loss: 4.469051991462708
+Epoch:    2/10    Loss: 3.8011333947181702
 
-Epoch:    1/10    Loss: 4.322897132396698
+Epoch:    2/10    Loss: 3.7152313504219054
 
-Epoch:    1/10    Loss: 4.4135877866744995
+Epoch:    2/10    Loss: 3.65879340171814
 
-Epoch:    1/10    Loss: 4.4603196387290955
+Epoch:    2/10    Loss: 3.765931410074234
 
-Epoch:    1/10    Loss: 4.378801937103272
+Epoch:    3/10    Loss: 3.670277550453093
 
-Epoch:    1/10    Loss: 4.3222391600608825
+Epoch:    3/10    Loss: 3.4720830149650572
 
-Epoch:    1/10    Loss: 4.328501117229462
+Epoch:    3/10    Loss: 3.538776999235153
 
-Epoch:    1/10    Loss: 4.150969034194946
+Epoch:    3/10    Loss: 3.465092686891556
 
-Epoch:    1/10    Loss: 4.192418588876724
+Epoch:    3/10    Loss: 3.43289835357666
 
-Epoch:    1/10    Loss: 4.263407717227936
+Epoch:    3/10    Loss: 3.5144753346443176
 
-Epoch:    1/10    Loss: 4.212929798126221
+Epoch:    4/10    Loss: 3.449442461981037
 
-Epoch:    1/10    Loss: 4.135343860626221
+Epoch:    4/10    Loss: 3.298443066596985
 
-Epoch:    1/10    Loss: 4.2693379969596865
+Epoch:    4/10    Loss: 3.3582100446224215
 
-Epoch:    1/10    Loss: 4.349201936721801
+Epoch:    4/10    Loss: 3.289191952228546
 
-Epoch:    1/10    Loss: 4.367666769981384
+Epoch:    4/10    Loss: 3.2655572738647463
 
-Epoch:    1/10    Loss: 4.326116885185241
+Epoch:    4/10    Loss: 3.3356787807941437
 
-Epoch:    1/10    Loss: 4.332196392059326
+Epoch:    5/10    Loss: 3.2954218256764296
 
-Epoch:    1/10    Loss: 4.363007280826569
+Epoch:    5/10    Loss: 3.1645079119205475
 
-Epoch:    1/10    Loss: 4.278753324985504
+Epoch:    5/10    Loss: 3.218149530410767
 
-Epoch:    2/10    Loss: 4.180154012210333
+Epoch:    5/10    Loss: 3.161827627658844
 
-Epoch:    2/10    Loss: 3.990738377571106
+Epoch:    5/10    Loss: 3.135913466453552
 
-Epoch:    2/10    Loss: 4.00446200466156
+Epoch:    5/10    Loss: 3.2006795618534087
 
-Epoch:    2/10    Loss: 3.9487212686538697
+Epoch:    6/10    Loss: 3.1795728136368884
 
-Epoch:    2/10    Loss: 3.950407698631287
+Epoch:    6/10    Loss: 3.0651138250827787
 
-Epoch:    2/10    Loss: 3.8540003266334533
+Epoch:    6/10    Loss: 3.1037415034770968
 
-Epoch:    2/10    Loss: 3.8329950160980224
+Epoch:    6/10    Loss: 3.0609480488300322
 
-Epoch:    2/10    Loss: 3.910052023410797
+Epoch:    6/10    Loss: 3.036549672365189
 
-Epoch:    2/10    Loss: 3.995899724006653
+Epoch:    6/10    Loss: 3.1002264664173125
 
-Epoch:    2/10    Loss: 3.898694866657257
+Epoch:    7/10    Loss: 3.093158835075735
 
-Epoch:    2/10    Loss: 4.000468514919281
+Epoch:    7/10    Loss: 2.986098366975784
 
-Epoch:    2/10    Loss: 4.061479848861694
+Epoch:    7/10    Loss: 3.014157128095627
 
-Epoch:    2/10    Loss: 3.9936357526779176
+Epoch:    7/10    Loss: 2.9801193861961366
 
-Epoch:    2/10    Loss: 3.9518151531219483
+Epoch:    7/10    Loss: 2.952708686590195
 
-Epoch:    2/10    Loss: 3.932371685504913
+Epoch:    7/10    Loss: 3.0168624382019043
 
-Epoch:    2/10    Loss: 3.844494062900543
+Epoch:    8/10    Loss: 3.0128059107355956
 
-Epoch:    2/10    Loss: 3.874439756155014
+Epoch:    8/10    Loss: 2.920597913980484
 
-Epoch:    2/10    Loss: 3.9060733289718628
+Epoch:    8/10    Loss: 2.9407848565578463
 
-Epoch:    2/10    Loss: 3.8763085985183716
+Epoch:    8/10    Loss: 2.918552146434784
 
-Epoch:    2/10    Loss: 3.8255480546951293
+Epoch:    8/10    Loss: 2.889859902858734
 
-Epoch:    2/10    Loss: 3.947948338508606
+Epoch:    8/10    Loss: 2.947641054868698
 
-Epoch:    2/10    Loss: 4.048587199211121
+Epoch:    9/10    Loss: 2.9503653445621816
 
-Epoch:    2/10    Loss: 4.026489740848541
+Epoch:    9/10    Loss: 2.8570389285087585
 
-Epoch:    2/10    Loss: 3.9717849283218385
+Epoch:    9/10    Loss: 2.882944025993347
 
-Epoch:    2/10    Loss: 4.00766872549057
+Epoch:    9/10    Loss: 2.8629592854976655
 
-Epoch:    2/10    Loss: 4.037465049743652
+Epoch:    9/10    Loss: 2.8262447106838224
 
-Epoch:    2/10    Loss: 3.977645206451416
+Epoch:    9/10    Loss: 2.8921092805862427
 
-Epoch:    3/10    Loss: 3.9201202125691657
+Epoch:   10/10    Loss: 2.8966394276396046
 
-Epoch:    3/10    Loss: 3.8203080282211306
+Epoch:   10/10    Loss: 2.8117111127376555
 
-Epoch:    3/10    Loss: 3.8131718540191653
+Epoch:   10/10    Loss: 2.8410091822147368
 
-Epoch:    3/10    Loss: 3.787348156929016
+Epoch:   10/10    Loss: 2.8187197966575623
 
-Epoch:    3/10    Loss: 3.784792870044708
+Epoch:   10/10    Loss: 2.77797407579422
 
-Epoch:    3/10    Loss: 3.691514874458313
+Epoch:   10/10    Loss: 2.8391309341192246
 
-Epoch:    3/10    Loss: 3.6813922472000122
-
-Epoch:    3/10    Loss: 3.7404094071388245
-
-Epoch:    3/10    Loss: 3.812290244102478
-
-Epoch:    3/10    Loss: 3.727936661243439
-
-Epoch:    3/10    Loss: 3.855855508327484
-
-Epoch:    3/10    Loss: 3.8941276412010195
-
-Epoch:    3/10    Loss: 3.8256756844520567
-
-Epoch:    3/10    Loss: 3.7767854671478274
-
-Epoch:    3/10    Loss: 3.744031059265137
-
-Epoch:    3/10    Loss: 3.699177155971527
-
-Epoch:    3/10    Loss: 3.735153858423233
-
-Epoch:    3/10    Loss: 3.766009093761444
-
-Epoch:    3/10    Loss: 3.7320658564567566
-
-Epoch:    3/10    Loss: 3.678197454929352
-
-Epoch:    3/10    Loss: 3.8163486375808717
-
-Epoch:    3/10    Loss: 3.8903228993415833
-
-Epoch:    3/10    Loss: 3.8977079982757568
-
-Epoch:    3/10    Loss: 3.813024209499359
-
-Epoch:    3/10    Loss: 3.851503673553467
-
-Epoch:    3/10    Loss: 3.890774303436279
-
-Epoch:    3/10    Loss: 3.867304190158844
-
-Epoch:    4/10    Loss: 3.8003723176557624
-
-Epoch:    4/10    Loss: 3.7100303888320925
-
-Epoch:    4/10    Loss: 3.723495192050934
-
-Epoch:    4/10    Loss: 3.70860218667984
-
-Epoch:    4/10    Loss: 3.664908432006836
-
-Epoch:    4/10    Loss: 3.578229010105133
-
-Epoch:    4/10    Loss: 3.5694361782073973
-
-Epoch:    4/10    Loss: 3.6491064615249633
-
-Epoch:    4/10    Loss: 3.70769389629364
-
-Epoch:    4/10    Loss: 3.616793592453003
-
-Epoch:    4/10    Loss: 3.7533060765266417
-
-Epoch:    4/10    Loss: 3.773271393299103
-
-Epoch:    4/10    Loss: 3.7416988897323606
-
-Epoch:    4/10    Loss: 3.674822164058685
-
-Epoch:    4/10    Loss: 3.6453436470031737
-
-Epoch:    4/10    Loss: 3.620815396308899
-
-Epoch:    4/10    Loss: 3.636888434648514
-
-Epoch:    4/10    Loss: 3.6600225019454955
-
-Epoch:    4/10    Loss: 3.6171896986961363
-
-Epoch:    4/10    Loss: 3.5728991808891295
-
-Epoch:    4/10    Loss: 3.711627365112305
-
-Epoch:    4/10    Loss: 3.7745397491455077
-
-Epoch:    4/10    Loss: 3.7948127508163454
-
-Epoch:    4/10    Loss: 3.6877517418861387
-
-Epoch:    4/10    Loss: 3.7302461771965025
-
-Epoch:    4/10    Loss: 3.7520462079048156
-
-Epoch:    4/10    Loss: 3.765413703918457
-
-Epoch:    5/10    Loss: 3.6848084929147
-
-Epoch:    5/10    Loss: 3.6293602867126467
-
-Epoch:    5/10    Loss: 3.6237831234931948
-
-Epoch:    5/10    Loss: 3.604573315382004
-
-Epoch:    5/10    Loss: 3.5787254948616027
-
-Epoch:    5/10    Loss: 3.500383038520813
-
-Epoch:    5/10    Loss: 3.4989144740104674
-
-Epoch:    5/10    Loss: 3.5584345569610596
-
-Epoch:    5/10    Loss: 3.616903157711029
-
-Epoch:    5/10    Loss: 3.5272909507751464
-
-Epoch:    5/10    Loss: 3.6520086362361908
-
-Epoch:    5/10    Loss: 3.673844136238098
-
-Epoch:    5/10    Loss: 3.672458254814148
-
-Epoch:    5/10    Loss: 3.596602928161621
-
-Epoch:    5/10    Loss: 3.5489077677726746
-
-Epoch:    5/10    Loss: 3.533690511703491
-
-Epoch:    5/10    Loss: 3.5277164936065675
-
-Epoch:    5/10    Loss: 3.5648394293785097
-
-Epoch:    5/10    Loss: 3.554809567451477
-
-Epoch:    5/10    Loss: 3.5014954662322997
-
-Epoch:    5/10    Loss: 3.6307962069511412
-
-Epoch:    5/10    Loss: 3.679272526741028
-
-Epoch:    5/10    Loss: 3.7269516172409056
-
-Epoch:    5/10    Loss: 3.6233048133850096
-
-Epoch:    5/10    Loss: 3.6568242740631103
-
-Epoch:    5/10    Loss: 3.65323556137085
-
-Epoch:    5/10    Loss: 3.67520672416687
-
-Epoch:    6/10    Loss: 3.6039638894199055
-
-Epoch:    6/10    Loss: 3.5643717761039735
-
-Epoch:    6/10    Loss: 3.5550364537239076
-
-Epoch:    6/10    Loss: 3.5415489308834074
-
-Epoch:    6/10    Loss: 3.522483108997345
-
-Epoch:    6/10    Loss: 3.4447627520561217
-
-Epoch:    6/10    Loss: 3.4191129455566407
-
-Epoch:    6/10    Loss: 3.486205880641937
-
-Epoch:    6/10    Loss: 3.5464179372787474
-
-Epoch:    6/10    Loss: 3.4332875633239746
-
-Epoch:    6/10    Loss: 3.58746099114418
-
-Epoch:    6/10    Loss: 3.5975593719482424
-
-Epoch:    6/10    Loss: 3.6055808544158934
-
-Epoch:    6/10    Loss: 3.5180343203544617
-
-Epoch:    6/10    Loss: 3.477572871685028
-
-Epoch:    6/10    Loss: 3.4732442564964296
-
-Epoch:    6/10    Loss: 3.4709684472084046
-
-Epoch:    6/10    Loss: 3.5180112419128418
-
-Epoch:    6/10    Loss: 3.529362467288971
-
-Epoch:    6/10    Loss: 3.445832777261734
-
-Epoch:    6/10    Loss: 3.5704142632484435
-
-Epoch:    6/10    Loss: 3.6163975491523743
-
-Epoch:    6/10    Loss: 3.650104146003723
-
-Epoch:    6/10    Loss: 3.5541941804885866
-
-Epoch:    6/10    Loss: 3.5882934584617616
-
-Epoch:    6/10    Loss: 3.579575459957123
-
-Epoch:    6/10    Loss: 3.615585021018982
-
-Epoch:    7/10    Loss: 3.5553441413684186
-
-Epoch:    7/10    Loss: 3.5034929945468902
-
-Epoch:    7/10    Loss: 3.4856852374076843
-
-Epoch:    7/10    Loss: 3.4911078765392305
-
-Epoch:    7/10    Loss: 3.4668391728401184
-
-Epoch:    7/10    Loss: 3.3867407779693606
-
-Epoch:    7/10    Loss: 3.380030611038208
-
-Epoch:    7/10    Loss: 3.4461165380477907
-
-Epoch:    7/10    Loss: 3.495439875602722
-
-Epoch:    7/10    Loss: 3.3842085185050963
-
-Epoch:    7/10    Loss: 3.5315925159454347
-
-Epoch:    7/10    Loss: 3.5454304876327516
-
-Epoch:    7/10    Loss: 3.5441870651245115
-
-Epoch:    7/10    Loss: 3.4558453154563904
-
-Epoch:    7/10    Loss: 3.4223534207344057
-
-Epoch:    7/10    Loss: 3.4314417703151703
-
-Epoch:    7/10    Loss: 3.4254899492263795
-
-Epoch:    7/10    Loss: 3.4788869404792786
-
-Epoch:    7/10    Loss: 3.4474490995407105
-
-Epoch:    7/10    Loss: 3.391903168678284
-
-Epoch:    7/10    Loss: 3.533822245597839
-
-Epoch:    7/10    Loss: 3.5521219329833986
-
-Epoch:    7/10    Loss: 3.613206827163696
-
-Epoch:    7/10    Loss: 3.503232486248016
-
-Epoch:    7/10    Loss: 3.538124674797058
-
-Epoch:    7/10    Loss: 3.546667363643646
-
-Epoch:    7/10    Loss: 3.5716024594306948
-
-Epoch:    8/10    Loss: 3.506843976374628
-
-Epoch:    8/10    Loss: 3.4690447528362274
-
-Epoch:    8/10    Loss: 3.454721013069153
-
-Epoch:    8/10    Loss: 3.4489688374996184
-
-Epoch:    8/10    Loss: 3.4159746532440187
-
-Epoch:    8/10    Loss: 3.3427597999572756
-
-Epoch:    8/10    Loss: 3.3429540143013
-
-Epoch:    8/10    Loss: 3.399780945301056
-
-Epoch:    8/10    Loss: 3.453304554462433
-
-Epoch:    8/10    Loss: 3.3518449363708496
-
-Epoch:    8/10    Loss: 3.4861147048473358
-
-Epoch:    8/10    Loss: 3.5142706532478334
-
-Epoch:    8/10    Loss: 3.4799488830566405
-
-Epoch:    8/10    Loss: 3.399865782260895
-
-Epoch:    8/10    Loss: 3.3858730483055113
-
-Epoch:    8/10    Loss: 3.387314600944519
-
-Epoch:    8/10    Loss: 3.3781759979724884
-
-Epoch:    8/10    Loss: 3.418048095226288
-
-Epoch:    8/10    Loss: 3.387708561897278
-
-Epoch:    8/10    Loss: 3.354513014793396
-
-Epoch:    8/10    Loss: 3.4903660354614257
-
-Epoch:    8/10    Loss: 3.510737394809723
-
-Epoch:    8/10    Loss: 3.55488609790802
-
-Epoch:    8/10    Loss: 3.448195471763611
-
-Epoch:    8/10    Loss: 3.508831950187683
-
-Epoch:    8/10    Loss: 3.504129456996918
-
-Epoch:    8/10    Loss: 3.5315706701278686
-
-Epoch:    9/10    Loss: 3.473424149728787
-
-Epoch:    9/10    Loss: 3.454531883239746
-
-Epoch:    9/10    Loss: 3.427476552963257
-
-Epoch:    9/10    Loss: 3.400934454679489
-
-Epoch:    9/10    Loss: 3.3794521775245667
-
-Epoch:    9/10    Loss: 3.310408651828766
-
-Epoch:    9/10    Loss: 3.3071260719299316
-
-Epoch:    9/10    Loss: 3.3703297839164734
-
-Epoch:    9/10    Loss: 3.3925889720916746
-
-Epoch:    9/10    Loss: 3.3173559317588808
-
-Epoch:    9/10    Loss: 3.4431531076431274
-
-Epoch:    9/10    Loss: 3.4708198971748354
-
-Epoch:    9/10    Loss: 3.4556039958000184
-
-Epoch:    9/10    Loss: 3.3656576652526855
-
-Epoch:    9/10    Loss: 3.346884355545044
-
-Epoch:    9/10    Loss: 3.352479484081268
-
-Epoch:    9/10    Loss: 3.34064072060585
-
-Epoch:    9/10    Loss: 3.389692058324814
-
-Epoch:    9/10    Loss: 3.342581606864929
-
-Epoch:    9/10    Loss: 3.311319260597229
-
-Epoch:    9/10    Loss: 3.4525228142738342
-
-Epoch:    9/10    Loss: 3.4722293572425844
-
-Epoch:    9/10    Loss: 3.4972510027885435
-
-Epoch:    9/10    Loss: 3.4132428164482116
-
-Epoch:    9/10    Loss: 3.4756979184150696
-
-Epoch:    9/10    Loss: 3.4741754007339476
-
-Epoch:    9/10    Loss: 3.493862519741058
-
-Epoch:   10/10    Loss: 3.4325626821660284
-
-Epoch:   10/10    Loss: 3.4097263164520264
-
-Epoch:   10/10    Loss: 3.399881185531616
-
-Epoch:   10/10    Loss: 3.3849424393177032
-
-Epoch:   10/10    Loss: 3.3490253171920776
-
-Epoch:   10/10    Loss: 3.2759999289512636
-
-Epoch:   10/10    Loss: 3.2731712746620176
-
-Epoch:   10/10    Loss: 3.3505326743125914
-
-Epoch:   10/10    Loss: 3.3495491981506347
-
-Epoch:   10/10    Loss: 3.2943676557540895
-
-Epoch:   10/10    Loss: 3.40484015917778
-
-Epoch:   10/10    Loss: 3.4439891419410706
-
-Epoch:   10/10    Loss: 3.432652319431305
-
-Epoch:   10/10    Loss: 3.3317526965141298
-
-Epoch:   10/10    Loss: 3.3245146851539613
-
-Epoch:   10/10    Loss: 3.3281301136016848
-
-Epoch:   10/10    Loss: 3.301269737958908
-
-Epoch:   10/10    Loss: 3.348873637676239
-
-Epoch:   10/10    Loss: 3.3048918895721435
-
-Epoch:   10/10    Loss: 3.2779084317684175
-
-Epoch:   10/10    Loss: 3.416061312198639
-
-Epoch:   10/10    Loss: 3.440120235443115
-
-Epoch:   10/10    Loss: 3.4548342046737672
-
-Epoch:   10/10    Loss: 3.372193946838379
-
-Epoch:   10/10    Loss: 3.4424557740688324
-
-Epoch:   10/10    Loss: 3.44629625749588
-
-Epoch:   10/10    Loss: 3.465095034122467
-
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/home/ubuntu/anaconda3/envs/pytorch_p36/lib/python3.6/site-packages/torch/serialization.py:360: UserWarning: Couldn&#39;t retrieve source code for container of type RNN. It won&#39;t be checked for correctness upon loading.
-  &#34;type &#34; + obj.__name__ + &#34;. It won&#39;t be checked &#34;
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Model Trained and Saved
+Model Trained and Saved
 </pre>
 </div>
 </div>
@@ -14594,6 +14152,134 @@ Epoch:   10/10    Loss: 3.465095034122467
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong> (Write answer, here)</p>
+<h4 id="hyperparameters-tuning">hyperparameters tuning<a class="anchor-link" href="#hyperparameters-tuning">&#182;</a></h4><p>I have tried different combinations of hyperparameters and listed down lowest Loss. I have kept the epochs to 10 ,just to quickly check the values of loss. You can see the outcomes in below table.</p>
+<table>
+<thead><tr>
+<th style="text-align:right">No.</th>
+<th style="text-align:left">batch</th>
+<th style="text-align:left">sequence_length</th>
+<th style="text-align:left">em_dim</th>
+<th style="text-align:left">hidden_dim</th>
+<th style="text-align:left">learning_rate</th>
+<th style="text-align:left">n_layers</th>
+<th style="text-align:left">lowest loss</th>
+<th style="text-align:left">epochs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">1</td>
+<td style="text-align:left">64</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">350</td>
+<td style="text-align:left">300</td>
+<td style="text-align:left">0.001</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">3.46</td>
+<td style="text-align:left">10</td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
+<td style="text-align:left">64</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">400</td>
+<td style="text-align:left">500</td>
+<td style="text-align:left">0.001</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">3.13</td>
+<td style="text-align:left">10</td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td style="text-align:left">64</td>
+<td style="text-align:left">20</td>
+<td style="text-align:left">400</td>
+<td style="text-align:left">500</td>
+<td style="text-align:left">0.001</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">3.16</td>
+<td style="text-align:left">10</td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td style="text-align:left">128</td>
+<td style="text-align:left">12</td>
+<td style="text-align:left">400</td>
+<td style="text-align:left">500</td>
+<td style="text-align:left">0.001</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">2.91</td>
+<td style="text-align:left">10</td>
+</tr>
+<tr>
+<td style="text-align:right">5</td>
+<td style="text-align:left">128</td>
+<td style="text-align:left">15</td>
+<td style="text-align:left">400</td>
+<td style="text-align:left">550</td>
+<td style="text-align:left">0.003</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">3.61</td>
+<td style="text-align:left">10</td>
+</tr>
+<tr>
+<td style="text-align:right">6</td>
+<td style="text-align:left">128</td>
+<td style="text-align:left">12</td>
+<td style="text-align:left">400</td>
+<td style="text-align:left">500</td>
+<td style="text-align:left">0.003</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">3.69</td>
+<td style="text-align:left">10</td>
+</tr>
+<tr>
+<td style="text-align:right">7</td>
+<td style="text-align:left">128</td>
+<td style="text-align:left">12</td>
+<td style="text-align:left">400</td>
+<td style="text-align:left">500</td>
+<td style="text-align:left">0.001</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">2.89</td>
+<td style="text-align:left">10</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td style="text-align:left">128</td>
+<td style="text-align:left">12</td>
+<td style="text-align:left">400</td>
+<td style="text-align:left">600</td>
+<td style="text-align:left">0.001</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">2.80</td>
+<td style="text-align:left">10</td>
+</tr>
+<tr>
+<td style="text-align:right">9</td>
+<td style="text-align:left">128</td>
+<td style="text-align:left">12</td>
+<td style="text-align:left">400</td>
+<td style="text-align:left">600</td>
+<td style="text-align:left">0.001</td>
+<td style="text-align:left">3</td>
+<td style="text-align:left">2.96</td>
+<td style="text-align:left">10</td>
+</tr>
+<tr>
+<td style="text-align:right">10</td>
+<td style="text-align:left">128</td>
+<td style="text-align:left">12</td>
+<td style="text-align:left">400</td>
+<td style="text-align:left">500</td>
+<td style="text-align:left">0.001</td>
+<td style="text-align:left">3</td>
+<td style="text-align:left">2.95</td>
+<td style="text-align:left">10</td>
+</tr>
+</tbody>
+</table>
+<p>based on above results I decided to keep hidden dim 600 and n_layers 2, because , as you can see the on row no 8 we got best result out of other runs. and when I tried 3 n_layers it gave me almost same result but slightly high Loss then using 2 n_layers.</p>
 
 </div>
 </div>
@@ -14620,7 +14306,7 @@ Epoch:   10/10    Loss: 3.465095034122467
 <span class="kn">import</span> <span class="nn">problem_unittests</span> <span class="k">as</span> <span class="nn">tests</span>
 
 <span class="n">_</span><span class="p">,</span> <span class="n">vocab_to_int</span><span class="p">,</span> <span class="n">int_to_vocab</span><span class="p">,</span> <span class="n">token_dict</span> <span class="o">=</span> <span class="n">helper</span><span class="o">.</span><span class="n">load_preprocess</span><span class="p">()</span>
-<span class="n">trained_rnn</span> <span class="o">=</span> <span class="n">helper</span><span class="o">.</span><span class="n">load_model</span><span class="p">(</span><span class="s1">&#39;./save/trained_rnn_v1&#39;</span><span class="p">)</span>
+<span class="n">trained_rnn</span> <span class="o">=</span> <span class="n">helper</span><span class="o">.</span><span class="n">load_model</span><span class="p">(</span><span class="s1">&#39;./save/trained_rnn&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
