@@ -1,4 +1,4 @@
-# Seinfeld Chronicles TV Script Generator using LSTM
+# Seinfeld Chronicles TV Script Generator using LSTM (NLP)
 
 ## Table of Contents
   - [About](#about)
@@ -10,14 +10,14 @@
 <a name="about"></a>
 ## About
 
-In this project I built very interesting Deep learning model based on RNNs(LSTM) which will be powerful enough to generate a fake TV-script on Seinfield American TV series.
+In this project I built very interesting Deep learning model and Natural Language Processing (NLP) based and trained on RNNs(LSTM) which will be powerful enough to generate a fake TV-script on Seinfield American TV series.
 
 This project is divided in the following key sections:
 
-1. Processing image data, building a pipeline to extract important facial data from source.
-2. Define a Deep learning network called DCGAN and training against the train data set.
+1. 
+2. 
 
-you'll be able to visualize the results of your trained Generator to see how it performs; your generated samples should look like fairly interesting script.
+you'll be able to read the results of your trained Networks to see how it performs; your generated samples should look like fairly interesting TV script.
 
 <a name="getting_started"></a>
 ## Getting Started
