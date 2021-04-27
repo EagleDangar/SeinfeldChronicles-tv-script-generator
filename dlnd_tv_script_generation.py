@@ -16,8 +16,6 @@ import torch.nn.functional as F
 from torch.utils.data import TensorDataset, DataLoader
 
 
-
-
 def create_lookup_tables(text):
     """
     Create lookup tables for vocabulary
