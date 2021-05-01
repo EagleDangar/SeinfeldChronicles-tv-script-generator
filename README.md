@@ -10,10 +10,9 @@
 <a name="about"></a>
 ## About
 
-In this project I built very interesting Deep learning model and Natural Language Processing (NLP) based and trained on RNNs(LSTM) which will be powerful enough to generate a fake TV-script on Seinfield American TV series.
+In this project, I built very interesting Deep learning model. It is Natural Language Processing (NLP) based and trained on RNNs(LSTM) which will be powerful enough to generate a fake TV-script on Seinfield American TV series.
 
-
-you'll be able to read the results of your trained Networks to see how it performs; your generated samples should look like fairly interesting TV script.
+we'll be able to read the results of out trained Networks to see how it performs; we generated samples should look like fairly interesting TV script.
 
 <a name="getting_started"></a>
 ## Getting Started
